@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{3B92AA4E-B2F6-4CB0-83C7-F8DCFCCB22CB}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DanfeSharp</RootNamespace>
+    <AssemblyName>DanfeSharp</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="PDFClown, Version=0.1.2.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>C:\nuget\Packages\PDFClown.0.1.2\lib\net40\PDFClown.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+    <Reference Include="zxing, Version=0.16.4.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60, processorArchitecture=MSIL">
+      <HintPath>C:\nuget\Packages\ZXing.Net.0.16.4\lib\net461\zxing.dll</HintPath>
+    </Reference>
+    <Reference Include="zxing.presentation, Version=0.16.4.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60, processorArchitecture=MSIL">
+      <HintPath>C:\nuget\Packages\ZXing.Net.0.16.4\lib\net461\zxing.presentation.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Atributos\AlturaFixaAttribute.cs" />
+    <Compile Include="Blocos\BlocoBase.cs" />
+    <Compile Include="Blocos\CFeSat\BlocoDanfeTitulo.cs" />
+    <Compile Include="Blocos\CFeSat\BlocoDestinatarioRemetente.cs" />
+    <Compile Include="Blocos\CFeSat\BlocoIdentificacaoEmitente.cs" />
+    <Compile Include="Blocos\CFeSat\BlocoInfo.cs" />
+    <Compile Include="Blocos\CFeSat\BlocoMensagemConsumidor.cs" />
+    <Compile Include="Blocos\CFeSat\BlocoQRCode.cs" />
+    <Compile Include="Blocos\CFeSat\BlocoResumo.cs" />
+    <Compile Include="Blocos\NFCe\BlocoDanfeTitulo.cs" />
+    <Compile Include="Blocos\NFCe\BlocoQRCode.cs" />
+    <Compile Include="Blocos\NFCe\BlocoMensagemConsumidor.cs" />
+    <Compile Include="Blocos\NFCe\BlocoResumo.cs" />
+    <Compile Include="Blocos\NFCe\BlocoInfo.cs" />
+    <Compile Include="Blocos\NFCe\BlocoDestinatarioRemetente.cs" />
+    <Compile Include="Blocos\NFCe\BlocoIdentificacaoEmitente.cs" />
+    <Compile Include="Blocos\NFe\BlocoCalculoImposto.cs" />
+    <Compile Include="Blocos\NFe\BlocoCanhoto.cs" />
+    <Compile Include="Blocos\NFe\BlocoDadosAdicionais.cs" />
+    <Compile Include="Blocos\NFe\BlocoDestinatarioRemetente.cs" />
+    <Compile Include="Blocos\NFe\BlocoDuplicataFatura.cs" />
+    <Compile Include="Blocos\NFe\BlocoIdentificacaoEmitente.cs" />
+    <Compile Include="Blocos\NFe\BlocoCalculoIssqn.cs" />
+    <Compile Include="Blocos\TabelaProdutosServicos.cs" />
+    <Compile Include="Blocos\NFe\BlocoTransportador.cs" />
+    <Compile Include="Constantes.cs" />
+    <Compile Include="Danfe.cs" />
+    <Compile Include="DanfePagina.cs" />
+    <Compile Include="Elementos\Barcode128C.cs" />
+    <Compile Include="Elementos\CabecalhoBloco.cs" />
+    <Compile Include="Elementos\Campo.cs" />
+    <Compile Include="Elementos\CampoMultilinha.cs" />
+    <Compile Include="Elementos\CampoNumerico.cs" />
+    <Compile Include="Elementos\CFeSat\BlocoQRCodeDesenho.cs" />
+    <Compile Include="Elementos\CFeSat\DanfeTitulo.cs" />
+    <Compile Include="Elementos\CFeSat\FormasDePagamentos.cs" />
+    <Compile Include="Elementos\CFeSat\IdentificacaoEmitente.cs" />
+    <Compile Include="Elementos\CFeSat\IdentificacaoRemetente.cs" />
+    <Compile Include="Elementos\CFeSat\Info.cs" />
+    <Compile Include="Elementos\CFeSat\MensagemConsumidor.cs" />
+    <Compile Include="Elementos\CFeSat\Totais.cs" />
+    <Compile Include="Elementos\LinhaTracejada.cs" />
+    <Compile Include="Elementos\DrawableBase.cs" />
+    <Compile Include="Elementos\ElementoBase.cs" />
+    <Compile Include="Elementos\ElementoVazio.cs" />
+    <Compile Include="Elementos\Estilo.cs" />
+    <Compile Include="Elementos\FlexibleLine.cs" />
+    <Compile Include="Elementos\NFCe\IdentificacaoEmitente.cs" />
+    <Compile Include="Elementos\NFe\Duplicata.cs" />
+    <Compile Include="Elementos\NFe\IdentificacaoEmitente.cs" />
+    <Compile Include="Elementos\LinhaCampos.cs" />
+    <Compile Include="Elementos\NFCe\MensagemConsumidor.cs" />
+    <Compile Include="Elementos\NFCe\DanfeTitulo.cs" />
+    <Compile Include="Elementos\NFCe\BlocoQRCodeDesenho.cs" />
+    <Compile Include="Elementos\NFCe\Info.cs" />
+    <Compile Include="Elementos\NFCe\FormasDePagamentos.cs" />
+    <Compile Include="Elementos\NFCe\Totais.cs" />
+    <Compile Include="Elementos\NFCe\IdentificacaoRemetente.cs" />
+    <Compile Include="Elementos\NFe\NumeroNfSerie.cs" />
+    <Compile Include="Elementos\NFe\NumeroNfSerie2.cs" />
+    <Compile Include="Elementos\Tabela.cs" />
+    <Compile Include="Elementos\TabelaColuna.cs" />
+    <Compile Include="Elementos\TextBlock.cs" />
+    <Compile Include="Elementos\TextoSimples.cs" />
+    <Compile Include="Elementos\TextStack.cs" />
+    <Compile Include="Elementos\VerticalStack.cs" />
+    <Compile Include="Enumeracoes\AlinhamentoHorizontal.cs" />
+    <Compile Include="Enumeracoes\AlinhamentoVertical.cs" />
+    <Compile Include="Enumeracoes\TipoFolha.cs" />
+    <Compile Include="Enumeracoes\Orientacao.cs" />
+    <Compile Include="Enumeracoes\PosicaoBloco.cs" />
+    <Compile Include="Esquemas\CFe\CFe.cs" />
+    <Compile Include="Esquemas\NFe\NFReferenciada.cs" />
+    <Compile Include="Extentions.cs" />
+    <Compile Include="Formatador.cs" />
+    <Compile Include="Graphics\Fonte.cs" />
+    <Compile Include="Modelo\CalculoImpostoViewModel.cs" />
+    <Compile Include="Modelo\CalculoIssqnViewModel.cs" />
+    <Compile Include="Modelo\DanfeViewModel.cs" />
+    <Compile Include="Modelo\DanfeViewModelCreator.cs" />
+    <Compile Include="Modelo\DetalhePagamentoViewModel.cs" />
+    <Compile Include="Modelo\EmpresaViewModel.cs" />
+    <Compile Include="Modelo\DuplicataViewModel.cs" />
+    <Compile Include="Modelo\ProdutoViewModel.cs" />
+    <Compile Include="Modelo\TransportadoraViewModel.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Graphics\Gfx.cs" />
+    <Compile Include="Esquemas\NFe\Namespaces.cs" />
+    <Compile Include="Esquemas\NFe\ProcNFe.cs" />
+    <Compile Include="Esquemas\NFe\Versao.cs" />
+    <Compile Include="Strings.cs" />
+    <Compile Include="Structs\DateTimeOffsetIso8601.cs" />
+    <Compile Include="Utils.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="nuget.config" />
+    <None Include="packages.config">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

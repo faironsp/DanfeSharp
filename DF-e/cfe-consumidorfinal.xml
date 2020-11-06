@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CFe>
+  <infCFe Id="CFe35180810227912000154590001315400049283290896" versao="0.07" versaoDadosEnt="0.07" versaoSB="20001.00">
+    <ide>
+      <cUF>35</cUF>
+      <cNF>329089</cNF>
+      <mod>59</mod>
+      <nserieSAT>000131540</nserieSAT>
+      <nCFe>004928</nCFe>
+      <dEmi>20180829</dEmi>
+      <hEmi>180244</hEmi>
+      <cDV>6</cDV>
+      <tpAmb>1</tpAmb>
+      <CNPJ>24785137000167</CNPJ>
+      <signAC>gaSC9b5MvqrNpmsWayhrS1hiNxnkJPJj1RAb+8hVBHsnGa8dH4E9PYH4cJDHxGulEfbur+qF9ItVwUzFjy67tA32WBHLRsG7Gyv5Tl5/7uK22agyLnqIB9CNKMB+vQIx4nJGY34cTsyMzsOJZ2URq0iu7OnZae0vjL/tH0BBcAF+6SdJ/pAZciLFJyJkiS5OEva6eruoyx0UejitBiaWDKGvrzAc8DZBC5xxO4W6Kfa9fdoMNy3/hvKRnfc7WstrV2j/pQziEXUFMOuaM98ZfpgPTq+lcpEcVngkZDwoU3nsPKHorLHsOUbUnrtSnk3SS1d1wOe1HoTNio6zbsrXZQ==</signAC>
+      <assinaturaQRCODE>pNDWK7UzxX75ngy8cG6FCdTU3ZGbcBfneO6G6mVggm40bodVjJQFqySlIKVY6S5KeVrBRkEafXXrE5Ld/YHYLac4VmzWDLZC06IpxJiLzUVJcFz8ph1mhVLiPTKVsnM6e0ce/6wVbG+aTu5vHHVElVPsQCaqegbcw9nQqy1WCZnMrWgGeBpNkvJMpwbRVcBA6i+g+u7aFYmgg66sYszQ9v1u6vjEljarHkSnH5fdzcdZxeyZyyXjtoJHZ4c2l+lMet+zDuqCet16VfwrU4lJaGnSc7nasofk4VM6d9EXSAtjCzxsLB7OzwRx0tGUAMq4Kf7KOGw2Y5gjXkJBJKgQOw==</assinaturaQRCODE>
+      <numeroCaixa>001</numeroCaixa>
+    </ide>
+    <emit>
+      <CNPJ>10227912000154</CNPJ>
+      <xNome>WADSON DE OLIVEIRA SILVA ME</xNome>
+      <enderEmit>
+        <xLgr>RUA ESPANHA</xLgr>
+        <nro>50</nro>
+        <xCpl>Nao Informado</xCpl>
+        <xBairro>JARDIM OBELISCO</xBairro>
+        <xMun>POA</xMun>
+        <CEP>08565210</CEP>
+      </enderEmit>
+      <IE>546121125112</IE>
+      <cRegTrib>1</cRegTrib>
+      <indRatISSQN>N</indRatISSQN>
+    </emit>
+    <dest>
+      <xNome>CONSUMIDOR</xNome>
+    </dest>
+    <det nItem="1">
+      <prod>
+        <cProd>F00002</cProd>
+        <xProd>POLPA DE FRUTA BARRA DE 1 KG SABORES VA</xProd>
+        <NCM>08112000</NCM>
+        <CFOP>5102</CFOP>
+        <uCom>KG</uCom>
+        <qCom>10.0000</qCom>
+        <vUnCom>8.50</vUnCom>
+        <vProd>85.00</vProd>
+        <indRegra>A</indRegra>
+        <vItem>85.00</vItem>
+      </prod>
+      <imposto>
+        <ICMS>
+          <ICMSSN102>
+            <Orig>0</Orig>
+            <CSOSN>102</CSOSN>
+          </ICMSSN102>
+        </ICMS>
+        <PIS>
+          <PISNT>
+            <CST>07</CST>
+          </PISNT>
+        </PIS>
+        <COFINS>
+          <COFINSNT>
+            <CST>07</CST>
+          </COFINSNT>
+        </COFINS>
+      </imposto>
+    </det>
+    <total>
+      <ICMSTot>
+        <vICMS>0.00</vICMS>
+        <vProd>85.00</vProd>
+        <vDesc>0.00</vDesc>
+        <vPIS>0.00</vPIS>
+        <vCOFINS>0.00</vCOFINS>
+        <vPISST>0.00</vPISST>
+        <vCOFINSST>0.00</vCOFINSST>
+        <vOutro>0.00</vOutro>
+      </ICMSTot>
+      <vCFe>85.00</vCFe>
+    </total>
+    <pgto>
+      <MP>
+        <cMP>01</cMP>
+        <vMP>85.00</vMP>
+      </MP>
+    </pgto>
+    <infAdic>
+      <obsFisco xCampo="04.04.05.04">
+        <xTexto>Comete crime quem sonega</xTexto>
+      </obsFisco>
+    </infAdic>
+  </infCFe>
+  <Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+    <SignedInfo>
+      <CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" />
+      <SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256" />
+      <Reference URI="#CFe35180810227912000154590001315400049283290896">
+        <Transforms>
+          <Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" />
+          <Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" />
+        </Transforms>
+        <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" />
+        <DigestValue>dI9v2fHD6N5f35Qd8DH61re1e2XWWSt2Ptfd7qjgQh8=</DigestValue>
+      </Reference>
+    </SignedInfo>
+    <SignatureValue>QlmzJYE/z7qd1q6jthnKSkjOvw0w7neHShgxTzxGSchWfYIfnhrwzTWDGiqWqE8WqZdxVIAIGZcxWrEQ6ixtRz0X97dHac45adYL11OUGmUrGLMs/AKjKZM1QzM0Vr5/b/OlOY98MNaeIJItmEK+/KUVTqLwoS8Z/JoJDQBbJ624JhdmdgIX+UO/eacnOzgYBTxXN9LKCLEKJLWNJTESqXaCO0r0jgUv1OvUSe+Ssr6emD/d0wseYumTBhE1lK2fQOjxX/3YRBgNKwv0J0fvUsCPGBCTgFvodCYYlEvQICWDqBQkhZI93bx2ccVGVszTKLk3u5jKxQIgWneDrfXxtQ==</SignatureValue>
+    <KeyInfo>
+      <X509Data>
+        <X509Certificate>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</X509Certificate>
+      </X509Data>
+    </KeyInfo>
+  </Signature>
+</CFe>

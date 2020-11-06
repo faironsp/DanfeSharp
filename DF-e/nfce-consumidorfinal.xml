@@ -1,0 +1,167 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<nfeProc versao="4.00" xmlns="http://www.portalfiscal.inf.br/nfe">
+  <NFe>
+    <infNFe versao="4.00" Id="NFe35180816619182000113650010000001171385716513">
+      <ide>
+        <cUF>35</cUF>
+        <cNF>38571651</cNF>
+        <natOp>VENDA</natOp>
+        <mod>65</mod>
+        <serie>1</serie>
+        <nNF>117</nNF>
+        <dhEmi>2018-08-29T19:42:02-03:00</dhEmi>
+        <tpNF>1</tpNF>
+        <idDest>1</idDest>
+        <cMunFG>3550308</cMunFG>
+        <tpImp>4</tpImp>
+        <tpEmis>1</tpEmis>
+        <cDV>3</cDV>
+        <tpAmb>1</tpAmb>
+        <finNFe>1</finNFe>
+        <indFinal>1</indFinal>
+        <indPres>1</indPres>
+        <procEmi>0</procEmi>
+        <verProc>1.0</verProc>
+      </ide>
+      <emit>
+        <CNPJ>16619182000113</CNPJ>
+        <xNome>CARLA AYO SALUSTIANO MODA E ACESSORIOS EIRELI</xNome>
+        <xFant>SALLUS PRIME</xFant>
+        <enderEmit>
+          <xLgr>AVENIDA FRANCISCO FALCONI</xLgr>
+          <nro>170</nro>
+          <xBairro>JARDIM AVELINO</xBairro>
+          <cMun>3550308</cMun>
+          <xMun>SÃO PAULO</xMun>
+          <UF>SP</UF>
+          <CEP>03227000</CEP>
+          <fone>1143717189</fone>
+        </enderEmit>
+        <IE>145512891110</IE>
+        <CRT>3</CRT>
+      </emit>
+      <autXML>
+        <CPF>34568868882</CPF>
+      </autXML>
+      <autXML>
+        <CNPJ>24785137000167</CNPJ>
+      </autXML>
+      <det nItem="1">
+        <prod>
+          <cProd>214</cProd>
+          <cEAN>SEM GTIN</cEAN>
+          <xProd>(CÓD: 00214) - MACACÃO BLACK  - TAMANHO: P;</xProd>
+          <NCM>62179000</NCM>
+          <CFOP>5102</CFOP>
+          <uCom>UN</uCom>
+          <qCom>1.0000</qCom>
+          <vUnCom>219.0000000000</vUnCom>
+          <vProd>219.00</vProd>
+          <cEANTrib>SEM GTIN</cEANTrib>
+          <uTrib>UN</uTrib>
+          <qTrib>1.0000</qTrib>
+          <vUnTrib>219.0000000000</vUnTrib>
+          <indTot>1</indTot>
+        </prod>
+        <imposto>
+          <ICMS>
+            <ICMS00>
+              <orig>0</orig>
+              <CST>00</CST>
+              <modBC>3</modBC>
+              <vBC>219.00</vBC>
+              <pICMS>18.0000</pICMS>
+              <vICMS>39.42</vICMS>
+            </ICMS00>
+          </ICMS>
+          <PIS>
+            <PISAliq>
+              <CST>01</CST>
+              <vBC>219.00</vBC>
+              <pPIS>3.0000</pPIS>
+              <vPIS>6.57</vPIS>
+            </PISAliq>
+          </PIS>
+          <COFINS>
+            <COFINSAliq>
+              <CST>01</CST>
+              <vBC>219.00</vBC>
+              <pCOFINS>0.6500</pCOFINS>
+              <vCOFINS>1.42</vCOFINS>
+            </COFINSAliq>
+          </COFINS>
+        </imposto>
+      </det>
+      <total>
+        <ICMSTot>
+          <vBC>219.00</vBC>
+          <vICMS>39.42</vICMS>
+          <vICMSDeson>0.00</vICMSDeson>
+          <vFCP>0.00</vFCP>
+          <vBCST>0.00</vBCST>
+          <vST>0.00</vST>
+          <vFCPST>0.00</vFCPST>
+          <vFCPSTRet>0.00</vFCPSTRet>
+          <vProd>219.00</vProd>
+          <vFrete>0.00</vFrete>
+          <vSeg>0.00</vSeg>
+          <vDesc>0.00</vDesc>
+          <vII>0.00</vII>
+          <vIPI>0.00</vIPI>
+          <vIPIDevol>0.00</vIPIDevol>
+          <vPIS>6.57</vPIS>
+          <vCOFINS>1.42</vCOFINS>
+          <vOutro>0.00</vOutro>
+          <vNF>219.00</vNF>
+          <vTotTrib>0.00</vTotTrib>
+        </ICMSTot>
+      </total>
+      <transp>
+        <modFrete>9</modFrete>
+      </transp>
+      <pag>
+        <detPag>
+          <tPag>99</tPag>
+          <vPag>219.00</vPag>
+        </detPag>
+      </pag>
+      <infAdic />
+    </infNFe>
+    <infNFeSupl>
+      <qrCode><![CDATA[https://www.nfce.fazenda.sp.gov.br/NFCeConsultaPublica/Paginas/ConsultaQRCode.aspx?chNFe=35180816619182000113650010000001171385716513&nVersao=100&tpAmb=1&dhEmi=323031382d30382d32395431393a34323a30322d30333a3030&vNF=219.00&vICMS=39.42&digVal=396d6f6f47346a31777658767662544d33766761675069434345773d&cIdToken=000001&cHashQRCode=47a6375de1747eb0da7a92e0576efe49bde21532]]></qrCode>
+      <urlChave>https://www.nfce.fazenda.sp.gov.br/qrcode</urlChave>
+    </infNFeSupl>
+    <Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+      <SignedInfo>
+        <CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" />
+        <SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" />
+        <Reference URI="#NFe35180816619182000113650010000001171385716513">
+          <Transforms>
+            <Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" />
+            <Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" />
+          </Transforms>
+          <DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+          <DigestValue>9mooG4j1wvXvvbTM3vgagPiCCEw=</DigestValue>
+        </Reference>
+      </SignedInfo>
+      <SignatureValue>JDjHHZeJJtRqaT6hDHE4JSakdbOoj4YCbFA0febFBm2dmr2pWy+pE08NDlbedKBN8j99V0gRPvRpmtUDRnON5olCQQj5KNXeN9fC5QMQqbM+UxISasYvOHMtLm7fbcvEQZVSnnSOwjdS9CpYYeZFN4xgr1yqybaLESHI8stec3Ca9qPCvUMuPwO45UABd1d2Cs5QJBg37xsJXRZNiVpJkh2f+EAIo8fFD8loqfyD+vLN4TWP0Kl8sarKzKBPzwDa5OCoghRIAkw/xOsICGqOeOWAYEP4HXTWR+nICUBv7uZSJ/aIWCT8WHjoBQGWP/FmnqP+MVdiIGuPr4WaBKq8sQ==</SignatureValue>
+      <KeyInfo>
+        <X509Data>
+          <X509Certificate>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</X509Certificate>
+        </X509Data>
+      </KeyInfo>
+    </Signature>
+  </NFe>
+  <protNFe versao="4.00">
+    <infProt>
+      <tpAmb>1</tpAmb>
+      <verAplic>SP_NFCE_PL_009_V400</verAplic>
+      <chNFe>35180816619182000113650010000001171385716513</chNFe>
+      <dhRecbto>2018-08-29T19:42:04-03:00</dhRecbto>
+      <nProt>135180145991059</nProt>
+      <digVal>9mooG4j1wvXvvbTM3vgagPiCCEw=</digVal>
+      <cStat>100</cStat>
+      <xMotivo>Autorizado o uso da NF-e</xMotivo>
+    </infProt>
+  </protNFe>
+</nfeProc>
